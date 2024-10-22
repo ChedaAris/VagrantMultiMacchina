@@ -2,8 +2,8 @@
 CREATE SCHEMA web;
 
 
--- CREATE USER 'web'@'10.10.20.10' IDENTIFIED BY 'web';
--- GRANT ALL ON web.* TO 'web'@'10.10.20.10';
+CREATE USER 'web'@'10.10.20.10' IDENTIFIED BY 'web';
+GRANT ALL ON web.* TO 'web'@'10.10.20.10';
 
 USE web;
 
